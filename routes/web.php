@@ -19,5 +19,7 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::resource('example', 'ExampleController');
+    Route::get('config-email', 'ConfigEmailController@index')->name('config-email.index');
+    Route::get('config-email/edit/{id}', 'ConfigEmailController@edit')->name('config-email.edit');
+    Route::post('config-email/update/{id}', 'ConfigEmailController@update')->name('config-email.update');
 });

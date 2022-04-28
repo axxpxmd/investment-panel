@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+// Models
+use App\Models\Job;
+use App\Models\Daftar;
+
 class HomeController extends Controller
 {
     protected $title = 'Dashboard';
@@ -17,6 +21,13 @@ class HomeController extends Controller
     {
         $title = $this->title;
 
-        return view('home', compact('title'));
+        $totalUser = Daftar::count();
+        $emailQueue = Job::count();
+
+        return view('home', compact(
+            'title',
+            'totalUser',
+            'emailQueue'
+        ));
     }
 }

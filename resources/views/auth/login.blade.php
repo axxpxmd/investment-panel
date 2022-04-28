@@ -9,7 +9,7 @@
 
     <!-- Title --> 
     <link rel="icon" href="" type="image/x-icon">
-    <title>{{ config('app.name') }} | @yield('title')</title>
+    <title>{{ config('app.name') }} | Login</title>
 
     <!-- CSS -->
     @yield('style')

@@ -7,9 +7,11 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-lite.min.css" rel="stylesheet">
+
     <!-- Title --> 
     <link rel="icon" href="{{ asset('images/icon.png') }}" type="image/x-icon">
-    <title>{{ config('app.name') }} | @yield('title')</title>
+    <title>{{ config('app.name') }} @yield('title')</title>
 
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
