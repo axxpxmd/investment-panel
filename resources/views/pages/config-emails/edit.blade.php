@@ -33,7 +33,7 @@
                                 <textarea name="body" id="editor">{{ $data->body }}</textarea>
                             </div>
                             <a href="{{ route('config-email.index') }}" class="btn btn-sm btn-danger"><i class="fa fa-arrow-left m-r-10"></i>Back</a>
-                            <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-save m-r-10"></i>Save</button>
+                            <button type="submit" class="btn btn-sm btn-success m-l-10"><i class="fa fa-save m-r-10"></i>Save</button>
                         </form>
                     </div>
                 </div>
