@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Title --> 
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/tangsel.png') }}" type="image/x-icon">
     <title>{{ config('app.name') }} | Login</title>
 
     <!-- CSS -->
@@ -61,10 +61,10 @@
                             </div>
                         </div>
                         <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column animate__animated animate__fadeInUp">
-                            <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'); background-size: cover;">
+                            <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'); background-size: cover;">
                                 <span class="mask bg-gradient-dark opacity-6"></span>
-                                <h4 class="mt-5 text-white font-weight-bolder position-relative">Aplikasi Inventory</h4>
-                                <p class="text-white position-relative">PT. Pencari Cinta Sejati</p>
+                                <h4 class="mt-5 text-white font-weight-bolder position-relative">Investasi Panel</h4>
+                                <p class="text-white position-relative">Kota Tangerang Selatan</p>
                             </div>
                         </div>
                     </div>

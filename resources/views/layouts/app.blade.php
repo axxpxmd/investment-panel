@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-lite.min.css" rel="stylesheet">
 
     <!-- Title --> 
-    <link rel="icon" href="{{ asset('images/icon.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/tangsel.png') }}" type="image/x-icon">
     <title>{{ config('app.name') }} @yield('title')</title>
 
     <!-- Fonts & Icons -->
